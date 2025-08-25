@@ -1,5 +1,5 @@
 import express from 'express';
-import dbConn from './config/dbConn.js';
+// import dbConn from './config/dbConn.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;

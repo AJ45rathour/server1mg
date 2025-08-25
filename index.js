@@ -1,7 +1,5 @@
 import express from 'express';
 import dbConn from './config/dbConn.js';
-import authRoutes from './routes/authroutes.js';
-
 
 const app = express();
 const PORT = process.env.PORT || 3000;
